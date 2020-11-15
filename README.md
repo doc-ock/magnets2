@@ -17,6 +17,10 @@ The gathered data was analyzed using matplotlib.pyplot, numpy, and scipy.stats.
 For point electric charges like monopoles, the electric field strength decreases as the distance from the source increases, following Coulomb's law: 
 ![equation](https://latex.codecogs.com/gif.latex?1/R^2)
 
+Linear regression model fitting did not work, and with the small amount of data points, fitting to Coulomb's law was not as effective as a wider array of points. The function was best plotted using the lambda expression for reverse exponential regression:
+```python
+lambda t, a, b: a * np.exp(b * t)
+```
 ## Outputs
 Check `./figs/` for .png files of the data from each of the results. 
 The subdirectory `./out/` contains csv files of each dataset where the first row is the mean, the second row is the standard deviation, and the third row is the chisquared values.

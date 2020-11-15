@@ -14,7 +14,8 @@ The raw files are in the directory `./magnet-data/`.
 The gathered data was analyzed using matplotlib.pyplot, numpy, and scipy.stats. 
 
 ## Expected vs Observed Outcome
-For point electric charges like monopoles, the electric field strength decreases as the distance from the source increases, following Coulomb's law: ![equation](https://latex.codecogs.com/gif.latex?1/R^2)
+For point electric charges like monopoles, the electric field strength decreases as the distance from the source increases, following Coulomb's law: 
+![equation](https://latex.codecogs.com/gif.latex?1/R^2)
 
 ## Outputs
 Check `./figs/` for .png files of the data from each of the results. 

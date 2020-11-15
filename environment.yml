@@ -1,0 +1,19 @@
+name: magnets
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  # Science packages and update pip.
+  - matplotlib=3.3.*
+  - numpy=1.19.*
+  - pip
+  - pyqt=5.9.*
+  - python=3.8.*
+  - scipy
+
+  # Running in a jupyter notebook
+  - notebook
+  - ipython
+  - ipykernel
+  - jupyterlab
